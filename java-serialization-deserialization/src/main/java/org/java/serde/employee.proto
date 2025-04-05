@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "com.example";
+option java_outer_classname = "EmployeeProto";
+
+message Employee {
+  string name = 1;
+  int32 age = 2;
+  string ssn = 3;
+}
